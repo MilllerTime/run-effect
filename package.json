@@ -1,0 +1,42 @@
+{
+  "name": "run-effect",
+  "amdName": "runEffect",
+  "version": "1.0.0",
+  "description": "Declaratively run side effects only when dependencies change. Usable in any JavaScript code (but inspired by React's useEffect hook).",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "unpkg": "dist/index.umd.js",
+  "scripts": {
+    "start": "microbundle watch",
+    "build": "microbundle --strict",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prepublish": "npm test && npm run build",
+    "release": "np"
+  },
+  "keywords": [
+    "side-effect",
+    "effect"
+  ],
+  "author": {
+    "name": "Caleb Miller",
+    "email": "caleb@caleb-miller.com",
+    "url": "https://cmiller.tech"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MilllerTime/run-effect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MilllerTime/run-effect/issues"
+  },
+  "homepage": "https://github.com/MilllerTime/run-effect",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "microbundle": "^0.11.0",
+    "np": "^5.0.1"
+  }
+}
