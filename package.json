@@ -1,7 +1,7 @@
 {
   "name": "run-effect",
   "amdName": "runEffect",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Declaratively run side effects only when dependencies change. Usable in any JavaScript code (but inspired by React's useEffect hook).",
   "source": "src/index.js",
   "main": "dist/index.js",
